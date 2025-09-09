@@ -1,0 +1,2 @@
+from datetime import datetime as d
+print((d(d.now().year+1,1,1) - d.now()).days, "дней до нового года")
